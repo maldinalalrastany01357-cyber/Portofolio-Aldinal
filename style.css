@@ -371,9 +371,8 @@ footer {
     .kelasnya-si-judul-html2 {
         color: black;
         position: absolute;
-        top: 100%;
+        top: 80px;
         right: 10%;
-        width: 70%;
         font-size: 17px;
     }
 
@@ -473,6 +472,6 @@ footer {
     }
 
     .kelasnya-si-li {
-        font-size: 13px;
+        font-size: 10px;
     }
 }
