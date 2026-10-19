@@ -443,19 +443,36 @@ footer {
 
     
     .kelasnya-si-pengalaman {
-    padding-top: 285px;
+    padding-top: 200px;
     }
 
     
     .kelasnya-si-tugas {
-    padding-top: 285px;
+    padding-top: 150;
     }
 
     .kelasnya-si-profil {
-    padding-top: 285px;
+    padding-top: 100;
     }
 
     .kelasnya-si-tentang{
-    padding-top: 290px;
+    padding-top: 0;
+    }
+
+    .kelasnya-si-perkenalan {
+        display: none;
+        width: 300%;
+        align-items: end;
+        justify-content: center;
+        background-color: #09097b;
+        
+    }
+
+    .kelasnya-si-ul{
+        width: 161%;
+    }
+
+    .kelasnya-si-li {
+        font-size: 13px;
     }
 }
