@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Aldinal</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Navbar Awal-->
+     <div>
+        <ul class="kelasnya-si-ul">
+            <div class="kelasnya-ul-div-awal">
+                    <li class="kelasnya-si-nama">
+                         <p>Muhammad Aldinal Al-rastany, 202443501133</p>
+                    </li>
+            </div> 
+            <div class="kelasnya-li-div">
+                <li class="kelasnya-si-li">
+                    <a href="#beranda" class="kelasnya-si-a">Beranda</a>
+                </li>
+                <li class="kelasnya-si-li">
+                    <a href="profil.html" class="kelasnya-si-a">Profil</a>
+                </li>
+                <li class="kelasnya-si-li">
+                    <a href="tugas_kuliah.html" class="kelasnya-si-a">Tugas Kuliah</a>
+                </li>
+                <li class="kelasnya-si-li">
+                    <a href="pengalaman.html" class="kelasnya-si-a">Pengalaman</a>
+                </li>
+                <li class="kelasnya-si-li">
+                    <a href="#sosmed" class="kelasnya-si-a">Sosial Media</a>
+                </li>
+            </div>
+        </ul>
+     </div>
+    <!-- Navbar Akhir  -->
+    <!-- Tentang Saya Awal -->
+     <div class="kelasnya-si-tentang" id="beranda" >
+        <section class="kelasnya-si-text-tentang">
+        <h1>Kulik Lebih Jauh Yuk!!</h1>
+        <p>Hallo, saya Muhammad Aldinal Al-rastany,</p><p>dari Universitas Indraprasta PGRI, Program Studi</p><p>Teknik Informatika, saya masuk kuliah pada tahun 2024</p> 
+        <p>dan sekarang saya semester 5</p>
+        </section>
+     </div>
+    <!-- Tentang Saya Akhir -->
+     <!-- sosial media Awal -->
+      <div>
+     <section id="sosmed" class="kelasnya-si-sosial-media">
+        <h2>Sosial Media</h2>
+        <p class="text-si-sosmed">Kalian bisa kunjungi sosial media saya, untuk melihat aktivitas yang saya lakukan, hubungi saya jika ada keperluan yang bisa saya tangani
+            jangan lupa untuk mengkuti sosial media saya.
+        </p>
+     </section>
+     </div>
+    <!-- sosial media akhir -->
+</body>
+</html>
+
+
+
+
+*,
+html {
+    margin:0;
+    padding:0;
+}
+
+.kelasnya-si-ul {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.kelasnya-ul-div-awal {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kelasnya-si-nama {
+    list-style-type:none;
+    justify-content:left;
+    align-items:left;
+}
+
+.kelasnya-li-div {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+}
+
+.kelasnya-si-li {
+    list-style-type:none;
+    padding: 15px;
+}
+
+.kelasnya-si-li:hover {
+    color:blue;
+}
+
+.kelasnya-si-a {
+    color:black;
+    text-decoration:none;
+}
+
+.kelasnya-si-a:hover {
+    color:blue;
+}
+
+
+.kelasnya-si-gambar {
+    width: 10%;
+    height: 10%;
+}
+
+.kelasnya-si-tentang {
+    text-align: right;
+    font-size: 1.5rem;
+    padding-top: 280px;
+    padding-bottom: 300px;
+    padding-right: 30px;
+    background-image: url(Dinalselebrasi-bg.jpeg);
+    background-repeat: no-repeat;
+}
+
+.kelasnya-si-sosial-media {
+    padding: 80px 9%;
+    font-size: 2.0rem;
+    background-color: #04043e;
+    color: white;
+    height: 80vh;
+}
+.text-si-sosmed {
+    font-size: 1.5rem;
+}
+
+.kelasnya-si-profil {
+    padding: 80px 9%;
+    font-size: 2.0rem;
+    background-color: white;
+    color: #04043e;
+    height: 80vh;
+}
+
+.kelasnya-si-tugas {
+    padding: 80px 9%;
+    font-size: 2.0rem;
+    background-color: #04043e;
+    color: white;
+    height: 80vh;
+}
+.kelasnya-si-pengalaman {
+    padding: 80px 9%;
+    font-size: 2.0rem;
+    background-color: white;
+    color: #04043e;
+    height: 80vh;
+}

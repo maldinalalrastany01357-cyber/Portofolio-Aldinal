@@ -1,0 +1,443 @@
+/* html utama (portofolio1)*/
+*,
+html {
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+/* Bagian Ul */
+.kelasnya-si-ul {
+    display:flex;
+    justify-content: start;
+}
+
+/* Bagian Ul > Bagian perkenalan */
+.kelasnya-si-perkenalan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.kelasnya-si-foto-dinal {
+    border-radius: 50%;
+    width: 5%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.kelasnya-si-nama {
+    list-style-type:none;
+    justify-content:left;
+    align-items:left;
+}
+/* Bagian Ul > Akhir perkenalan */
+
+/* Bagian Ul > Bagian Li */
+.kelasnya-li-div {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.kelasnya-si-li {
+    list-style-type:none;
+    padding: 15px;
+}
+
+.kelasnya-si-li:hover {
+    color:blue;
+}
+
+.kelasnya-si-a {
+    color:black;
+    text-decoration:none;
+}
+
+.kelasnya-si-a:hover {
+    color:blue;
+}
+/* Bagian Ul > Akhir Li */
+/* Akhir Ul */
+
+/* Bagian beranda */
+.kelasnya-si-tentang {
+    text-align: right;
+    font-size: 1.6rem;
+    padding-top: 280px;
+    padding-bottom: 300px;
+    padding-right: 30px;
+    background-image: url(Aldinalbaru.jpeg);
+    background-repeat: no-repeat;
+}
+/* Akhir Beranda */
+
+/* Bagian sosial media */
+.kelasnya-si-sosial-media {
+    padding: 80px 9%;
+    font-size: 2.0rem;
+    background-color: #04043e;
+    color: white;
+}
+
+.kelasnya-si-sosial-media p {
+    font-size: 29px;
+}
+
+.text-si-sosmed {
+    font-size: 1.5rem;
+}
+
+.kelasnya-si-akun {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3rem;
+    background-color: #04043e;
+    color: white;
+}
+
+.kelasnya-si-email {
+    width: 45%;
+    font-size: 30px;
+}
+
+.kelasnya-si-wa {
+    width: 20%;
+    font-size: 30px;
+}
+
+.kelasnya-si-ig {
+    width: 20%;
+    font-size: 30px;
+}
+
+/* Akhir sosial media */
+/* akhir html utama (portofolio1) */
+
+/* Html profil */
+.kelasnya-si-profil {
+    text-align: right;
+    font-size: 1.6rem;
+    padding-top: 280px;
+    padding-right: 30px;
+    color: #04043e;
+    background-color: white;
+    height: 80vh;
+    background-image: url("Aldinalprofil1.jpeg");
+    background-repeat: no-repeat;
+}
+
+    .kelasnya-si-p {
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-size: 1px;
+    }
+
+    .kelasnya-si-h3 {
+        font-size: 31px;
+    }
+
+    .kelasnya-si-h2 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+/* Akhir html profil */
+
+/* Html tugas kuliah */
+.kelasnya-si-tugas {
+    text-align: right;
+    font-size: 1.6rem;
+    padding-top: 280px;
+    padding-right: 30px;
+    color: white;
+    height: 80vh;
+    background-image: url(Aldinaltugas.jpeg);
+    background-repeat: no-repeat;
+}
+.kelasnya-si-bukti-tugas {
+    display: flex;
+    font-size: 1.6rem;
+    padding-left: 50px;
+    background-color: #04043e;
+    color: white;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.kelasnya-si-gambar-tugas {
+    padding: 20px;
+}
+
+.update {
+    display: flex;
+    padding: 5vh;
+    background-color: #04043e;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* Akhir html tugas kuliah */
+
+/* Html pengalaman */
+.kelasnya-si-pengalaman {
+    text-align: right;
+    font-size: 1.6rem;
+    padding-top: 280px;
+    padding-right: 30px;
+    color: #04043e;
+    background-color: white;
+    height: 80vh;
+    background-image: url("Aldinalpengalaman.jpeg");
+}
+/* Akhir html pengalaman */
+.kelasnya-si-judul-html {
+    max-width: 37rem;
+    margin-left: auto;
+}
+
+.kelasnya-si-judul-html1 {
+    max-width: 37rem;
+    margin-left: auto;
+}
+
+.kelasnya-si-judul-html3 {
+    max-width: 37rem;
+    margin-left: auto;
+}
+
+.kelasnya-si-judul-html2 {
+    max-width: 37rem;
+    margin-left: auto;
+}
+
+.kelasnya-si-email {
+    width: 45%;
+}
+
+.kelasnya-si-wa {
+    width: 20%;
+}
+
+.kelasnya-si-ig {
+    width: 20%;
+}
+/* Pencipta */
+footer {
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+/* Akhit html utama */
+
+/* Responsif */
+
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 60%;
+    }
+
+    .kelasnya-si-sosial-media p {
+        font-size: 25px;
+    }
+
+    .kelasnya-si-p {
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-size: 10px;
+    }
+
+    .kelasnya-si-h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .kelasnya-si-tentang {
+        padding-bottom: 475px;
+    }
+
+    .kelasnya-si-judul-html {
+        color: #09097b;
+        position: absolute;
+        top: 100%;
+        right: 10%;
+        width: 70%;
+        font-size: 15px;
+        }
+
+    .kelasnya-si-judul-html p {
+        font-size: 1.8rem;
+    }
+
+    .kelasnya-si-bukti-tugas {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+    .kelasnya-si-gambar-tugas {
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+    .kelasnya-si-paragraf-tugas {
+        max-width: 31rem;
+    }
+
+    .kelasnya-si-judul-html1 {
+        color: white;
+        position: absolute;
+        top: 100%;
+        right: 10%;
+        width: 70%;
+        font-size: 17px;
+    }
+
+    .kelasnya-si-judul-html3 {
+        color: white;
+        position: absolute;
+        top: 100%;
+        right: 10%;
+        width: 70%;
+        font-size: 17px;
+    }
+
+    .kelasnya-si-judul-html2 {
+        color: black;
+        position: absolute;
+        top: 100%;
+        right: 10%;
+        width: 70%;
+        font-size: 17px;
+    }
+
+    .kelasnya-si-email {
+        font-size: 20px;
+    }
+
+    .kelasnya-si-wa {
+        font-size: 20px;
+    }
+
+    .kelasnya-si-ig {
+        font-size: 20px;
+    }
+}
+
+/* Phone */
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+        }
+        
+    .kelasnya-si-judul-html3 {
+        color: white;
+    }
+
+    .kelasnya-si-sosial-media p {
+        font-size: 17px;
+    }
+
+    .kelasnya-si-p {
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-size: 10px;
+    }
+
+    .kelasnya-si-h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .kelasnya-si-tentang {
+        padding-bottom: 475px;
+    }
+
+    .kelasnya-si-judul-html {
+        color: white;
+        position: absolute;
+        top: 120%;
+        right: 10%;
+        width: 70%;
+        font-size: 13px;
+        }
+
+    .kelasnya-si-judul-html2 {
+        color: black;
+        position: absolute;
+        top: 100%;
+        right: 10%;
+        width: 70%;
+        font-size: 17px;
+    }
+
+    .kelasnya-si-judul-html p {
+        font-size: 1.8rem;
+    }
+
+    .kelasnya-si-bukti-tugas {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+    .kelasnya-si-gambar-tugas {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    .kelasnya-si-paragraf-tugas {
+        max-width: 37rem;
+    }
+
+    .kelasnya-si-perkenalan {
+        justify-content: center;
+        width: 38%;
+    }
+
+    .kelasnya-si-li {
+        font-size: 8px;
+    }
+
+    .kelasnya-li-div {
+        width: 62%;
+    }
+
+    .kelasnya-si-perkenalan p {
+        font-size: 8px;
+    }
+    
+    .kelasnya-si-foto-dinal {
+        display: none;
+    }
+    
+    .kelasnya-si-tugas {
+    padding-bottom: 80px;
+    }
+
+    .kelasnya-si-pengalaman {
+    padding-bottom: 80px;
+    }
+    
+    .kelasnya-si-profil {
+    padding-bottom: 80px;
+    }
+
+.kelasnya-si-email {
+    font-size: 13px;
+}
+
+.kelasnya-si-wa {
+    font-size: 13px;
+}
+
+.kelasnya-si-ig {
+    font-size: 13px;
+}
+
+}
