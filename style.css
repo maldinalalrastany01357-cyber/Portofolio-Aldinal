@@ -442,7 +442,7 @@ footer {
 
     
     .kelasnya-si-pengalaman {
-    padding-bottom: 0px;
+        width: 100%;
     }
 
     
@@ -451,11 +451,11 @@ footer {
     }
 
     .kelasnya-si-profil {
-    padding-top: 250;
+    padding-top: 250px;
     }
 
     .kelasnya-si-tentang{
-    padding-top: 200;
+    padding-top: 200px;
     }
 
     .kelasnya-si-perkenalan {
