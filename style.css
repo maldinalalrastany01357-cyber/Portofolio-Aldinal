@@ -193,6 +193,7 @@ html {
     background-color: white;
     height: 80vh;
     background-image: url("Aldinalpengalaman.jpeg");
+    background-repeat: no-repeat;
 }
 /* Akhir html pengalaman */
 .kelasnya-si-judul-html {
@@ -428,16 +429,33 @@ footer {
     padding-bottom: 80px;
     }
 
-.kelasnya-si-email {
+    .kelasnya-si-email {
     font-size: 13px;
-}
+    }
 
-.kelasnya-si-wa {
+    .kelasnya-si-wa {
     font-size: 13px;
-}
+    }
 
-.kelasnya-si-ig {
+    .kelasnya-si-ig {
     font-size: 13px;
-}
+    }
 
+    
+    .kelasnya-si-pengalaman {
+    padding-top: 285px;
+    }
+
+    
+    .kelasnya-si-tugas {
+    padding-top: 285px;
+    }
+
+    .kelasnya-si-profil {
+    padding-top: 285px;
+    }
+
+    .kelasnya-si-tentang{
+    padding-top: 290px;
+    }
 }
