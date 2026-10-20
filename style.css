@@ -442,13 +442,13 @@ footer {
 
     
     .kelasnya-si-pengalaman {
-    height: 60vh;
+    height: 50vh;
+    padding-top: 250px;
     }
-
     
     .kelasnya-si-tugas {
-    height: 55vh;
-    padding-bottom: 0%;
+    height: 50vh;
+    padding-top: 250px;
     }
 
     .kelasnya-si-profil {
@@ -457,8 +457,8 @@ footer {
     }
 
     .kelasnya-si-tentang{
-    height: 65vh;
-    padding-top: 200px;
+    height: 50vh;
+    padding-top: 250px;
     }
 
     .kelasnya-si-perkenalan {
