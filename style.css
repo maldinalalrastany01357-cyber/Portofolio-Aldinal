@@ -70,7 +70,7 @@ html {
     padding-top: 280px;
     padding-bottom: 300px;
     padding-right: 30px;
-    background-image: url(Aldinalbaru.jpeg);
+    background-image: url(1selebrasi.jpeg);
     background-repeat: no-repeat;
 }
 /* Akhir Beranda */
@@ -127,7 +127,7 @@ html {
     color: #04043e;
     background-color: white;
     height: 80vh;
-    background-image: url("Aldinalprofil1.jpeg");
+    background-image: url("Profil1.jpeg");
     background-repeat: no-repeat;
 }
 
@@ -155,7 +155,7 @@ html {
     padding-right: 30px;
     color: white;
     height: 80vh;
-    background-image: url(Aldinaltugas.jpeg);
+    background-image: url(Tugas2.jpeg);
     background-repeat: no-repeat;
 }
 .kelasnya-si-bukti-tugas {
@@ -192,7 +192,7 @@ html {
     color: #04043e;
     background-color: white;
     height: 80vh;
-    background-image: url("Aldinalpengalaman.jpeg");
+    background-image: url("Pengalaman1.jpeg");
     background-repeat: no-repeat;
 }
 /* Akhir html pengalaman */
@@ -418,17 +418,17 @@ footer {
     }
     
     .kelasnya-si-pengalaman {
-    height: 70vh;
+    height: 61vh;
     padding-top: 250px;
     }
 
     .kelasnya-si-tugas {
-    height: 64vh;
+    height: 61vh;
     padding-top: 250px;
     }
 
     .kelasnya-si-profil {
-    height: 62vh;
+    height: 61vh;
     padding-top: 250px;
     }
 
