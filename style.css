@@ -338,6 +338,7 @@ footer {
         
     .kelasnya-si-judul-html3 {
         color: white;
+        padding-bottom: 50px;
     }
 
     .kelasnya-si-sosial-media p {
@@ -361,11 +362,12 @@ footer {
 
     .kelasnya-si-judul-html {
         color: white;
-        position: absolute;
+        padding-bottom: 50px;
         }
 
     .kelasnya-si-judul-html2 {
         color: black;
+        padding-bottom: 50px;
     }
 
     .kelasnya-si-judul-html p {
@@ -455,7 +457,8 @@ footer {
 
     .kelasnya-si-perkenalan {
         display: none;
-        width: 300%;
+    height: 50vh;
+    padding-top: 250px;
         align-items: end;
         justify-content: center;
         background-color: #09097b;
