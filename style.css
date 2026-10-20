@@ -389,11 +389,6 @@ footer {
         max-width: 37rem;
     }
 
-    .kelasnya-si-perkenalan {
-        justify-content: center;
-        width: 38%;
-    }
-
     .kelasnya-si-li {
         font-size: 8px;
     }
@@ -413,15 +408,7 @@ footer {
     .kelasnya-si-tugas {
     padding-bottom: 80px;
     }
-
-    .kelasnya-si-pengalaman {
-    padding-bottom: 80px;
-    }
     
-    .kelasnya-si-profil {
-    padding-bottom: 80px;
-    }
-
     .kelasnya-si-email {
     font-size: 13px;
     }
@@ -433,7 +420,6 @@ footer {
     .kelasnya-si-ig {
     font-size: 13px;
     }
-
     
     .kelasnya-si-pengalaman {
     height: 50vh;
@@ -457,8 +443,8 @@ footer {
 
     .kelasnya-si-perkenalan {
         display: none;
-    height: 50vh;
-    padding-top: 250px;
+        height: 50vh;
+        padding-top: 250px;
         align-items: end;
         justify-content: center;
         background-color: #09097b;
